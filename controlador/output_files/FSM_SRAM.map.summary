@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Dec 29 16:55:14 2020
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : FSM_SRAM
+Top-level Entity Name : FSM_SRAM
+Family : Cyclone IV E
+Total logic elements : 157
+    Total combinational functions : 157
+    Dedicated logic registers : 8
+Total registers : 8
+Total pins : 8
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

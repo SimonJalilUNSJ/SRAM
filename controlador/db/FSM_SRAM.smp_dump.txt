@@ -1,0 +1,14 @@
+
+State Machine - |FSM_SRAM|current_state
+Name current_state.read6 current_state.read5 current_state.read4 current_state.read3 current_state.read2 current_state.read1 current_state.write4 current_state.write3 current_state.write2 current_state.write1 current_state.idle 
+current_state.idle 0 0 0 0 0 0 0 0 0 0 0 
+current_state.write1 0 0 0 0 0 0 0 0 0 1 1 
+current_state.write2 0 0 0 0 0 0 0 0 1 0 1 
+current_state.write3 0 0 0 0 0 0 0 1 0 0 1 
+current_state.write4 0 0 0 0 0 0 1 0 0 0 1 
+current_state.read1 0 0 0 0 0 1 0 0 0 0 1 
+current_state.read2 0 0 0 0 1 0 0 0 0 0 1 
+current_state.read3 0 0 0 1 0 0 0 0 0 0 1 
+current_state.read4 0 0 1 0 0 0 0 0 0 0 1 
+current_state.read5 0 1 0 0 0 0 0 0 0 0 1 
+current_state.read6 1 0 0 0 0 0 0 0 0 0 1 

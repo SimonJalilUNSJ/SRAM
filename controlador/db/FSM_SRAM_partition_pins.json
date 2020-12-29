@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ce_low",
+					"strict" : false
+				},
+				{
+					"name" : "we_low",
+					"strict" : false
+				},
+				{
+					"name" : "oe_low",
+					"strict" : false
+				},
+				{
+					"name" : "dout",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset_low",
+					"strict" : false
+				},
+				{
+					"name" : "r_w",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

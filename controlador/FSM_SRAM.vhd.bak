@@ -1,0 +1,9 @@
+library ieee;
+use ieee.std_logic_1164;
+
+entity FSM_SRAM is 
+	port(
+		
+	
+	);
+end entity FSM_SRAM;

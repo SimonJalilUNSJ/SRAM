@@ -1,0 +1,12 @@
+|FSM_SRAM
+r_w => Selector5.IN3
+r_w => Selector9.IN1
+clk => current_state~1.DATAIN
+reset_low => current_state~3.DATAIN
+ce_low <= ce_low.DB_MAX_OUTPUT_PORT_TYPE
+we_low <= we_low.DB_MAX_OUTPUT_PORT_TYPE
+oe_low <= WideOr12.DB_MAX_OUTPUT_PORT_TYPE
+din <= <GND>
+dout <= dout.DB_MAX_OUTPUT_PORT_TYPE
+
+
