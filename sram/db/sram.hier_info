@@ -1,0 +1,45 @@
+|sram
+i_clk => ram~7.CLK
+i_clk => ram~0.CLK
+i_clk => ram~1.CLK
+i_clk => ram~2.CLK
+i_clk => ram~3.CLK
+i_clk => ram~4.CLK
+i_clk => ram~5.CLK
+i_clk => ram~6.CLK
+i_clk => o_dat[0]~reg0.CLK
+i_clk => o_dat[0]~en.CLK
+i_clk => o_dat[1]~reg0.CLK
+i_clk => o_dat[1]~en.CLK
+i_clk => o_dat[2]~reg0.CLK
+i_clk => o_dat[2]~en.CLK
+i_clk => o_dat[3]~reg0.CLK
+i_clk => o_dat[3]~en.CLK
+i_clk => ram.CLK0
+i_dir[0] => ram~2.DATAIN
+i_dir[0] => ram.WADDR
+i_dir[0] => ram.RADDR
+i_dir[1] => ram~1.DATAIN
+i_dir[1] => ram.WADDR1
+i_dir[1] => ram.RADDR1
+i_dir[2] => ram~0.DATAIN
+i_dir[2] => ram.WADDR2
+i_dir[2] => ram.RADDR2
+i_oe_low => clk_sram.IN0
+i_we_low => clk_sram.IN0
+i_ce_low => clk_sram.IN1
+i_ce_low => clk_sram.IN1
+i_dat[0] => ram~6.DATAIN
+i_dat[0] => ram.DATAIN
+i_dat[1] => ram~5.DATAIN
+i_dat[1] => ram.DATAIN1
+i_dat[2] => ram~4.DATAIN
+i_dat[2] => ram.DATAIN2
+i_dat[3] => ram~3.DATAIN
+i_dat[3] => ram.DATAIN3
+o_dat[0] <= o_dat[0].DB_MAX_OUTPUT_PORT_TYPE
+o_dat[1] <= o_dat[1].DB_MAX_OUTPUT_PORT_TYPE
+o_dat[2] <= o_dat[2].DB_MAX_OUTPUT_PORT_TYPE
+o_dat[3] <= o_dat[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
